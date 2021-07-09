@@ -1,3 +1,2 @@
-reconstructParMesh -mergeTol 1e-06 -time $1
-reconstructPar -time $1
-
+reconstructParMesh -mergeTol 1e-06
+reconstructPar
