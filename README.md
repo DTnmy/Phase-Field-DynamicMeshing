@@ -35,7 +35,7 @@
 
  #Compile the solver
  
- cd /solverdirectory
+ cd solverDirectory/
  
  wclean
  
@@ -43,7 +43,7 @@
   
  #Run the case
   
- cd /casedirectory
+ cd caseDirectory/
  
  ./Allclean
  
