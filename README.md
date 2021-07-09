@@ -53,4 +53,4 @@
  
  ./construct
  
- The solver is being tested for OpenFOAM v6.
+ #The solver is being tested for OpenFOAM v6.
