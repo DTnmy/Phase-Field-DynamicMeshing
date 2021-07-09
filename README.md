@@ -30,3 +30,27 @@
  #Compile the lib
  
  wmake libso
+ 
+ #Follow additional instructions from readme inside the library directory
+
+ #Compile the solver
+ 
+ cd <solver directory>
+ 
+ wclean
+ 
+ wmake
+  
+ #Run the case
+  
+ cd <case directory>
+ 
+ ./Allclean
+ 
+ ./Allrun
+ 
+ #If running a parallel simulation
+ 
+ ./construct
+ 
+ The solver is being tested for OpenFOAM v6.
