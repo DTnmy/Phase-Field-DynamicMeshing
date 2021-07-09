@@ -1,6 +1,6 @@
 Random obj(1);
 const scalar randNumber(obj.scalar01());
-#include "dAdgradPhi_mod.H"
+#include "dAdgradPhiMod.H"
 fvScalarMatrix alphaEqn
 (
 /*omega*epsilon*dimt*fvm::ddt(alpha)

@@ -16,7 +16,8 @@ runApplication setFields -dict system/setFieldsDict
 
 runApplication decomposePar
 
-#runParallel `getApplication`
+#runApplication `getApplication`
+runParallel `getApplication`
 
 #runApplication reconstructPar
 

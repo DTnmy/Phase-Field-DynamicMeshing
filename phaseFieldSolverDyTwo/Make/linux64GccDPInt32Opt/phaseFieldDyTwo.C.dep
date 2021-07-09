@@ -1,5 +1,5 @@
-$(OBJECTS_DIR)/phaseFieldDy2.C.dep: \
-phaseFieldDy2.C \
+$(OBJECTS_DIR)/phaseFieldDyTwo.C.dep: \
+phaseFieldDyTwo.C \
 $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/fvCFD.H \
 $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/simpleControl.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Random.H \
@@ -37,7 +37,7 @@ $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/singleRegionConvergenceControl.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/scalar.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/RandomI.H \
 readTransportProperties.H \
-dAdgradPhi_mod.H \
+dAdgradPhiMod.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Pstream.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/IOstreams.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimePaths.H \
@@ -794,7 +794,7 @@ $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/singleRegionConvergenceControl.H :
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/scalar.H :
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/RandomI.H :
 readTransportProperties.H :
-dAdgradPhi_mod.H :
+dAdgradPhiMod.H :
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Pstream.H :
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/IOstreams.H :
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimePaths.H :
