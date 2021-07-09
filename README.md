@@ -30,9 +30,3 @@
  #Compile the lib
  
  wmake libso
-
-#####################################
-
-Note on post-processing with Paraview:
-
-Use Case Type: Decomposed Case if reconstructPar fails.
